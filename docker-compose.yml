@@ -1,0 +1,11 @@
+services:
+  bcr-report-tools:
+    build: ./
+    command: streamlit run app.py --server.port 8502
+    image: bcr-report-tools
+    container_name: bcr-report-tools
+    restart: unless-stopped
+    ports:
+      - 8502:8502
+    volumes:
+      - ./:/app

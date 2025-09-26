@@ -1,0 +1,27 @@
+[server]
+headless = true
+runOnSave = true
+fileWatcherType = "poll"
+
+[client]
+toolbarMode = "minimal"
+
+
+[theme]
+# Primary accent for interactive elements
+primaryColor = "#5FC3E6"
+
+# Background color for the main content area
+# backgroundColor = "#273346"
+
+# Background color for sidebar and most interactive widgets
+# secondaryBackgroundColor = "#9C7CB6"
+
+#"#008EB4"
+#"#5FC3E6"
+#"#8EA53C"
+#"#969C9E"
+#"#F6BE00"
+#"#FF8F00"
+#"#F46B00"
+#"#FF586F"
